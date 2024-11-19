@@ -96,12 +96,12 @@
 
         .form-container {
             display: flex;
-            flex-wrap: wrap; /* Permite que os itens se ajustem para uma nova linha, se necessário */
-            gap: 10px; /* Espaço entre os itens */
+            flex-wrap: wrap; /* Permite que os itens se ajustem para uma nova linha, se necessÃ¡rio */
+            gap: 10px; /* EspaÃ§o entre os itens */
         }
 
         .form-container > div {
-            flex: 1 1 200px; /* Faz com que cada input ocupe uma largura mínima de 200px */
+            flex: 1 1 200px; /* Faz com que cada input ocupe uma largura mÃ­nima de 200px */
         }
 
     </style>
@@ -109,9 +109,9 @@
 </head>
 <body>
     <div class="container">
-        <h2>Valor do Seguro de Sa�de</h1>
+        <h2>Valor do Seguro de Saúde</h1>
 
-        <!-- Formulário -->
+        <!-- FormulÃ¡rio -->
         <form method="POST">
             <div class="form-container">
                 <div class="form-group">
@@ -149,12 +149,12 @@
                 <label for="fumante">Fumante:</label>
                 <select name="fumante" id="fumante" required>
                     <option value="1">Sim</option>
-                    <option value="0">Não</option>
+                    <option value="0">NÃ£o</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="regiao">Região:</label>
+                <label for="regiao">RegiÃ£o:</label>
                 <select name="regiao" id="regiao" required>
                     <option value="3">Sudeste</option>
                     <option value="2">Sudoeste</option>
@@ -173,7 +173,7 @@
                 <p><strong>Idade:</strong> {{ resultado.idade }}</p>
                 <p><strong>Altura:</strong> {{ resultado.altura }}</p>
                 <p><strong>Peso:</strong> {{ resultado.peso }}</p>
-                <p><strong>Classificação:</strong> {{ resultado.imc }}</p>
+                <p><strong>ClassificaÃ§Ã£o:</strong> {{ resultado.imc }}</p>
                 <p><strong>Valor:</strong> R$ {{ resultado.classificacao }}</p>
             </div>
         {% endif %}
